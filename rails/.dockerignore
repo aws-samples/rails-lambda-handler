@@ -1,0 +1,6 @@
+.dockerignore
+.gitignore
+.gitattributes
+Dockerfile
+README.md
+config/master.key
