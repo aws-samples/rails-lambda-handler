@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/ruby:3.1.3-slim as builder
+FROM public.ecr.aws/docker/library/ruby:3.2.2-slim as builder
 WORKDIR /app
 
 RUN apt-get update -qq && apt-get upgrade -y -qq
@@ -9,7 +9,7 @@ RUN bundle config --global frozen 1
 COPY Gemfile Gemfile.lock /app/
 RUN bundle install
 
-FROM public.ecr.aws/docker/library/ruby:3.1.3-slim
+FROM public.ecr.aws/docker/library/ruby:3.2.2-slim
 WORKDIR /app
 
 RUN apt-get update -qq && apt-get upgrade -y -qq
