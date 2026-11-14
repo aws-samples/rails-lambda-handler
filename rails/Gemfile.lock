@@ -194,9 +194,9 @@ GEM
     reline (0.7.0)
       io-console (~> 0.5)
     securerandom (0.4.1)
-    sqlite3 (2.9.5-aarch64-linux-gnu)
-    sqlite3 (2.9.5-arm64-darwin)
-    sqlite3 (2.9.5-x86_64-linux-gnu)
+    sqlite3 (2.10.2-aarch64-linux-gnu)
+    sqlite3 (2.10.2-arm64-darwin)
+    sqlite3 (2.10.2-x86_64-linux-gnu)
     thor (1.5.0)
     timeout (0.6.1)
     tsort (0.2.0)
@@ -221,7 +221,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 7.2)
   rails (~> 7.2.3)
-  sqlite3 (~> 2.9)
+  sqlite3 (~> 2.10)
   tzinfo-data
 
 RUBY VERSION
